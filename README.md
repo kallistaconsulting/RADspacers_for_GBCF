@@ -29,9 +29,10 @@ established software to perform steps is therefore preferred.
 Cutadapt was selected as the clean-up software as it allows for custom input and defined mismatch
 handling.
 
-Required files: spacers.fasta – a file that has all of the spacer sequences
-Example1_R1_001.fastq.gz
-Example1_R2_001.fastq.gz
+<b>Required files</b>: 
+* spacers.fasta – a file that has all of the spacer sequences the core uses
+* Example1_R1_001.fastq.gz
+* Example1_R2_001.fastq.gz
 
 <b>Command:</b>
 
@@ -46,9 +47,9 @@ but this was easier and required fewer parameters.
 Cutadapt was used again for this step, for simplicity.
 
 <b>Required files</b>: 
-Barcode.fasta (barcodes fasta for the run)
-Example1_R1_001.nospacer.fastq.gz – from previous step
-Example1_R2_001.nospacer.fastq.gz – from previous step
+* Barcode.fasta (barcodes fasta for the run - provided by user)
+* Example1_R1_001.nospacer.fastq.gz – from previous step
+* Example1_R2_001.nospacer.fastq.gz – from previous step
 
 <b>Command</b>:
 
