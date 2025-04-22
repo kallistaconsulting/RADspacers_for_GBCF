@@ -58,7 +58,7 @@ Cutadapt was used again for this step, for simplicity.
 {name} will be replaced with the barcode name from the Barcode.fasta.
 
 ## Usage note
-Place fastqs and above spacer reference fastas in the same location. Use the loop.sh code file to help set up your clean up.
+Place fastqs and above spacer reference fastas in the same location. Use the loopExample.sh code file to help set up your clean up.
 <b>Please note, this does not do quality control</b> – after removing the spacer sequences and splitting the
 files into their individual samples, please proceed with normal quality control filters for length, quality,
 contamination, etc.
