@@ -30,7 +30,8 @@ Cutadapt was selected as the clean-up software as it allows for custom input and
 handling.
 
 <b>Required files</b>: 
-* spacers.fasta – a file that has all of the spacer sequences the core uses
+* spacers_v#_####.fasta – a file that has all of the spacer sequences the core uses
+   * please ask which version of the spacers are used, as these do change through time.
 * Example1_R1_001.fastq.gz
 * Example1_R2_001.fastq.gz
 
