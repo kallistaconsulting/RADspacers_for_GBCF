@@ -2,7 +2,7 @@
 Removing custom spacers for the RAD library protocol April 2025
 
 ## Overview
-Library Structure:
+<b>Library Structure</b>:
 
 P5-TruSeqRead1-EcoRInlinebarcode-EcorIcutsite-insert-MseIcutsite-[spacer]-SamplebarcodeTruSeqRead2-P7
 
@@ -14,13 +14,13 @@ to custom clean up (in-line barcode on the EcoRI side and the custom spacer on t
 <b>Workflow to pre-clean</b>:
 
  0 – automatic clean up by sequencer, these are the files we start with
- returns: EcoRInlinebarcode-EcorIcutsite-insert-MseIcutsite-[spacer]
+ - returns: EcoRInlinebarcode-EcorIcutsite-insert-MseIcutsite-[spacer]
  
  1 – remove spacer
- returns: EcoRInlinebarcode-EcorIcutsite-insert-MseIcutsite
+ - returns: EcoRInlinebarcode-EcorIcutsite-insert-MseIcutsite
  
  2 – split samples by barcode
- returns: EcorIcutsite-insert-MseIcutsite
+ - returns: EcorIcutsite-insert-MseIcutsite
 
 <b>Considerations</b>: It is preferred that this processing can be done by the client when possible. Using
 established software to perform steps is therefore preferred. 
